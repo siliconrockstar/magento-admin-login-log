@@ -1,0 +1,32 @@
+<config>
+    <menu>
+        <adminloginlog translate="title" module="siliconrockstar_adminloginlog">
+            <title>Admin Login Audit</title>
+            <sort_order>100</sort_order>
+            <children>
+                <view>
+                    <title>View Log</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/adminloginlog/index</action>
+                </view>
+            </children>
+        </adminloginlog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>                
+                    <adminloginlog translate="title" module="siliconrockstar_adminloginlog">
+                        <title>Admin Login Log Top Menu</title>1
+                        <sort_order>1</sort_order>
+                        <children>
+                            <view>
+                                <title>View Log</title>
+                            </view>
+                        </children>
+                    </adminloginlog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

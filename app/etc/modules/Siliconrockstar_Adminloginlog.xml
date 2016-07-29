@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Siliconrockstar_Adminloginlog>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.9.0.0</version>
+    </Siliconrockstar_Adminloginlog>
+  </modules>
+</config>
